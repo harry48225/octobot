@@ -8,9 +8,6 @@ import asteroid
 _version_ = '0.01'
 _author_ = 'harry48225'
 
-
-usrname = 'ENTER HERE'
-passwd = 'ENTER HERE'
 botnick = 'Octo[bot]'
 realname = 'Octo[bot] {0} Author: {1}'.format(_version_, _author_)
 ident =  botnick
