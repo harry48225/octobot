@@ -2,7 +2,9 @@
 import socket
 import time
 import json
+import threading
 
+#My stuff
 import asteroid
 
 _version_ = '0.01'
@@ -176,6 +178,7 @@ if __name__ == '__main__':
                         sendtochan('I am not connected to {0)'.format(data[4]), channel)
                         
                 elif data[3] == 'are-we-safe?':
+                    
                     
                     sendtochan(asteroid.checkifsafe(), channel)
                     
