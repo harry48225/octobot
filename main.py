@@ -179,7 +179,10 @@ if __name__ == '__main__':
                         elif data[4] in channels:
                             
                             send('PART {0}'.format(data[4]))
-                            channels.remove(data[4])
+                            config['channels'].remove(data[4])
+                            with open('config.json', 'w') as f:
+                    
+                                json.dump(config, f, indent=4)
                             
                         else:
                             

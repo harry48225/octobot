@@ -5,7 +5,7 @@
         "pass": "Enter here"
     }, 
     "channels": [
-        "Enter here", 
+        "Enter here"
     ], 
     "network": {
         "network": "irc.freenode.net", 
