@@ -9,7 +9,7 @@ api_key = 'Get one from api.nasa.org'
 
 with open('apikeys.json', 'r') as f:
     
-    api_key = json.load(f)['asteroid']
+    api_key = json.load(f)['NASA']
                
 
 url = 'https://api.nasa.gov/neo/rest/v1/feed?' + 'api_key=' + api_key
