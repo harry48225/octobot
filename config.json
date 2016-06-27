@@ -1,0 +1,20 @@
+{
+    "info": {
+        "ident": "Enter here", 
+        "botnick": "Enter here", 
+        "pass": "Enter here"
+    }, 
+    "channels": [
+        "Enter here", 
+    ], 
+    "network": {
+        "network": "irc.freenode.net", 
+        "port": 6667
+    }, 
+    "general": {
+        "debug": true, 
+        "commandchar": "_8", 
+        "version": "0.02", 
+        "author": "harry48225"
+    }
+}

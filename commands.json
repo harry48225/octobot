@@ -1,26 +1,18 @@
 {
-    "are-we-safe?": {
-        "usage": "Checks whether we are going to be hit by an asteroid in the next 7 days", 
-        "syntax": "are-we-safe?"
+    "info": {
+        "ident": "Octo[bot]", 
+        "botnick": "Octo[bot]", 
+        "pass": "octopus"
     }, 
-    "help": {
-        "usage": "This returns what a command does or syntax", 
-        "syntax": "help <command> <usage/syntax> (if <usage/syntax> is omitted then it returns both)"
+    "channels": [
+        "#Pulsar-Developments"
+    ], 
+    "network": {
+        "network": "irc.freenode.net", 
+        "port": 6667
     }, 
-    "list": {
-        "usage": "This allows you to list things about octobot. The current things that you can list are 'commands' and 'channels'", 
-        "syntax": "list <commands/channels>"
-    }, 
-    "ping": {
-        "usage": "This returns a pong", 
-        "syntax": "ping"
-    }, 
-    "leave": {
-        "usage": "Gets octobot to leave a channel", 
-        "syntax": "leave <channel>"
-    }, 
-    "moo": {
-        "usage": "Responds with moo!", 
-        "syntax": "moo"
+    "general": {
+        "debug": false, 
+        "commandchar": "_8"
     }
 }
