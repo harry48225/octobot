@@ -25,6 +25,6 @@
     }
     "am-I-being-watched?" {
     	"usage": "Gets the last picture that Nasa has taken of a particular lat/long",
-    	"syntax" : "am-I-being-watched? <lat> <long>
+    	"syntax" : "am-I-being-watched? <lat> <long>"
     }
 }
